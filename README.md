@@ -62,7 +62,7 @@ Very Vulnerable Lambda Application is a intentionally vulnerable application aim
 	
 - Step 3: Run the sed command to replace the bucket name to unique bucket name. 
 
-    `sed -i'' -e "s/myrandombucket/$(uuidgen)/g" serverless.yml`
+    `sed -i'' -e "s/myrandombucket/$(uuidgen | tr '[:upper:]' '[:lower:]')/g" serverless.yml`
 
 - Step 4: Run the below command to install serverless-python-requirements
 
