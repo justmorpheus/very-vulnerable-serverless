@@ -288,7 +288,7 @@ Then run attack.py to exploit, make sure to edit the lambda endpoint in attack.p
 	`python3 attack.py`
 
 Then to check the successful execution:
-	`http get https://<sls-endpoint>/dev/date?exec=ls -la /tmp/`
+	`http get https://<sls-endpoint>/dev/date?exec=ls+-la+/tmp/hacked`
 	
 
 - - -
