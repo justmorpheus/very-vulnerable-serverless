@@ -242,7 +242,7 @@ gAN9cQAoWAEAAABhcQFLAVgBAAAAYnECSwJ1Lg==
 ```
 
 Then run to validate if serialization is working or not
-    `http --form POST http://<sls-endpoint>/deserial pickled='gAN9cQAoWAEAAABhcQFLAVgBAAAAYnECSwJ1Lg=='`
+    `http --form POST http://<sls-endpoint>/dev/deserial pickled='gAN9cQAoWAEAAABhcQFLAVgBAAAAYnECSwJ1Lg=='`
  
 You will see an output like this
  
